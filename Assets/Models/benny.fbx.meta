@@ -15,43 +15,38 @@ ModelImporter:
     100018: body
     100020: bodyBehind
     100022: bodyFront
-    100024: Camera
-    100026: Cube
-    100028: dogArmature
-    100030: fuss2_L
-    100032: fuss2_L.001
-    100034: fuss2_R
-    100036: fuss2_R.001
-    100038: fuss3_L
-    100040: fuss3_R
-    100042: fuss4_L
-    100044: fuss4_L_end
-    100046: fuss4_R
-    100048: fuss4_R_end
-    100050: fuss_L
-    100052: fuss_R
-    100054: hals
-    100056: hand_L
-    100058: hand_L_end
-    100060: hand_R
-    100062: hand_R_end
-    100064: head
-    100066: head_end
-    100068: kiefer
-    100070: Lamp
-    100072: mouth
-    100074: mouth_end
-    100076: Point
-    100078: Point.001
-    100080: Point.002
-    100082: root
-    100084: spine
-    100086: spine2
-    100088: spine3
-    100090: spine4
-    100092: tail1
-    100094: tail2
-    100096: tail2_end
+    100024: Cube
+    100026: dogArmature
+    100028: fuss2_L
+    100030: fuss2_L.001
+    100032: fuss2_R
+    100034: fuss2_R.001
+    100036: fuss3_L
+    100038: fuss3_R
+    100040: fuss4_L
+    100042: fuss4_L_end
+    100044: fuss4_R
+    100046: fuss4_R_end
+    100048: fuss_L
+    100050: fuss_R
+    100052: hals
+    100054: hand_L
+    100056: hand_L_end
+    100058: hand_R
+    100060: hand_R_end
+    100062: head
+    100064: head_end
+    100066: kiefer
+    100068: mouth
+    100070: mouth_end
+    100072: root
+    100074: spine
+    100076: spine2
+    100078: spine3
+    100080: spine4
+    100082: tail1
+    100084: tail2
+    100086: tail2_end
     400000: arm2_L
     400002: arm2_R
     400004: arm3_L
@@ -64,44 +59,38 @@ ModelImporter:
     400018: body
     400020: bodyBehind
     400022: bodyFront
-    400024: Camera
-    400026: Cube
-    400028: dogArmature
-    400030: fuss2_L
-    400032: fuss2_L.001
-    400034: fuss2_R
-    400036: fuss2_R.001
-    400038: fuss3_L
-    400040: fuss3_R
-    400042: fuss4_L
-    400044: fuss4_L_end
-    400046: fuss4_R
-    400048: fuss4_R_end
-    400050: fuss_L
-    400052: fuss_R
-    400054: hals
-    400056: hand_L
-    400058: hand_L_end
-    400060: hand_R
-    400062: hand_R_end
-    400064: head
-    400066: head_end
-    400068: kiefer
-    400070: Lamp
-    400072: mouth
-    400074: mouth_end
-    400076: Point
-    400078: Point.001
-    400080: Point.002
-    400082: root
-    400084: spine
-    400086: spine2
-    400088: spine3
-    400090: spine4
-    400092: tail1
-    400094: tail2
-    400096: tail2_end
-    2000000: Camera
+    400024: Cube
+    400026: dogArmature
+    400028: fuss2_L
+    400030: fuss2_L.001
+    400032: fuss2_R
+    400034: fuss2_R.001
+    400036: fuss3_L
+    400038: fuss3_R
+    400040: fuss4_L
+    400042: fuss4_L_end
+    400044: fuss4_R
+    400046: fuss4_R_end
+    400048: fuss_L
+    400050: fuss_R
+    400052: hals
+    400054: hand_L
+    400056: hand_L_end
+    400058: hand_R
+    400060: hand_R_end
+    400062: head
+    400064: head_end
+    400066: kiefer
+    400068: mouth
+    400070: mouth_end
+    400072: root
+    400074: spine
+    400076: spine2
+    400078: spine3
+    400080: spine4
+    400082: tail1
+    400084: tail2
+    400086: tail2_end
     2100000: fell
     2100002: schnauze
     2100004: hair2
@@ -114,10 +103,6 @@ ModelImporter:
     7400008: dogArmature|idle
     7400010: dogArmature|run
     9500000: //RootNode
-    10800000: Lamp
-    10800002: Point
-    10800004: Point.001
-    10800006: Point.002
     13700000: Cube
   externalObjects: {}
   materials:
@@ -146,7 +131,175 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: dogArmature|attack
+      takeName: dogArmature|attack
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dogArmature|attack2
+      takeName: dogArmature|attack2
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dogArmature|die
+      takeName: dogArmature|die
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dogArmature|flinch
+      takeName: dogArmature|flinch
+      firstFrame: 0
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dogArmature|idle
+      takeName: dogArmature|idle
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dogArmature|run
+      takeName: dogArmature|run
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -156,8 +309,8 @@ ModelImporter:
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -194,7 +347,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    rootMotionBoneName: 
+    rootMotionBoneName: dogArmature
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
