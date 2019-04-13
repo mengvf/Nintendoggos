@@ -30,6 +30,7 @@ public class StartRecording : MonoBehaviour
             Microphone.End(Microphone.devices[0]);
             //Voice has been detected. Move dog towards camera
             dog.transform.LookAt(new Vector3(main_camera.transform.position.x, dog.transform.position.y, main_camera.transform.position.z), new Vector3(0, 1, 0));
+            dog.GetComponent<Animator>().Play("attack");
         }
     }
 }
