@@ -7,10 +7,13 @@ public class DogScript : MonoBehaviour
     AudioClip voice_command;
     public GameObject main_camera;
     Animator dogAnim;
+    Rigidbody rb;
+    bool running = false;
     // Start is called before the first frame update
     void Start()
     {
         dogAnim = this.GetComponent<Animator>();
+        rb = this.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -27,20 +30,26 @@ public class DogScript : MonoBehaviour
         {
             Microphone.End(Microphone.devices[0]);
             //Voice has been detected. Move dog towards camera
-            //this.transform.LookAt(new Vector3(main_camera.transform.position.x, this.transform.position.y, main_camera.transform.position.z), new Vector3(0, 1, 0));
-            //this.transform.Rotate(0, 90, 0);
-            print(dogAnim.HasState(0, Animator.StringToHash("Base Layer.run")));
+            this.transform.LookAt(new Vector3(main_camera.transform.position.x, this.transform.position.y, main_camera.transform.position.z), new Vector3(0, 1, 0));
+            this.transform.Rotate(0, 90, 0);
+            running = true;
+            rb.velocity = -this.transform.right * 10;
+        }
+        if (running)
+        {
             dogAnim.Play(Animator.StringToHash("Base Layer.run"), 0);
         }
         if (Input.GetKeyDown("s"))
         {
-            print("WAT?");
             StopDog();
+            rb.velocity = this.transform.right * 10;
         }
     }
 
     void StopDog()
     {
+        running = false;
         this.transform.LookAt(new Vector3(main_camera.transform.position.x, this.transform.position.y, main_camera.transform.position.z), new Vector3(0, 1, 0));
+        dogAnim.Play(Animator.StringToHash("Base Layer.Empty"));
     }
 }
