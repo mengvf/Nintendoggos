@@ -10,6 +10,7 @@ public class DogScript : MonoBehaviour
     Rigidbody rb;
     bool running = false;
     bool sitting = false;
+    public float distance_to_stopping_before_camera = 7;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,7 +50,7 @@ public class DogScript : MonoBehaviour
             StopDog();
         }
         //Stop dog when it's close to the camera
-        if (Vector3.Distance(this.transform.position, main_camera.transform.position) < 5 && running)
+        if (Vector3.Distance(this.transform.position, main_camera.transform.position) < distance_to_stopping_before_camera && running)
         {
             StopDog();
         }
