@@ -1,6 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
+using UnityEngine.Windows.Speech;
 
 public class DogScript : MonoBehaviour
 {
@@ -11,32 +14,34 @@ public class DogScript : MonoBehaviour
     bool running = false;
     bool sitting = false;
     public float distance_to_stopping_before_camera = 7;
+
+    //Speech
+    private KeywordRecognizer keywordRecognizer;
+    private Dictionary<string, Action> actions = new Dictionary<string, Action>();
+
     // Start is called before the first frame update
     void Start()
     {
+        AndroidJavaClass speech = ;
         dogAnim = this.GetComponent<Animator>();
         rb = this.GetComponent<Rigidbody>();
+
+        //Speech
+        actions.Add("ben", RunTowardsCamera);
+
+        keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
+        keywordRecognizer.OnPhraseRecognized += RecognizeSpeech;
+        keywordRecognizer.Start();
+    }
+
+    private void RecognizeSpeech(PhraseRecognizedEventArgs speech)
+    {
+        actions[speech.text].Invoke();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("t") == true)
-        {
-            int min;
-            int max;
-            Microphone.GetDeviceCaps(Microphone.devices[0], out min, out max);
-            voice_command = Microphone.Start(Microphone.devices[0], false, 2, min);
-        }
-        if (Input.GetKeyUp("t") == true)
-        {
-            Microphone.End(Microphone.devices[0]);
-            //Voice has been detected. Move dog towards camera
-            this.transform.LookAt(new Vector3(main_camera.transform.position.x, this.transform.position.y, main_camera.transform.position.z), new Vector3(0, 1, 0));
-            this.transform.Rotate(0, 90, 0);
-            running = true;
-            rb.AddForce((new Vector3(main_camera.transform.position.x, this.transform.position.y, main_camera.transform.position.z) - this.transform.position).normalized * 100);
-        }
         if (running)
         {
             dogAnim.Play(Animator.StringToHash("Base Layer.run"), 0);
@@ -53,6 +58,19 @@ public class DogScript : MonoBehaviour
         if (Vector3.Distance(this.transform.position, main_camera.transform.position) < distance_to_stopping_before_camera && running)
         {
             StopDog();
+        }
+    }
+
+    void RunTowardsCamera()
+    {
+        if (Vector3.Distance(this.transform.position, main_camera.transform.position) > distance_to_stopping_before_camera)
+        {
+            rb.AddForce((new Vector3(main_camera.transform.position.x, this.transform.position.y, main_camera.transform.position.z) - this.transform.position).normalized * 100);
+            running = true;
+            //Voice has been detected. Move dog towards camera
+            this.transform.LookAt(new Vector3(main_camera.transform.position.x, this.transform.position.y, main_camera.transform.position.z), new Vector3(0, 1, 0));
+            this.transform.Rotate(0, 90, 0);
+            sitting = false;
         }
     }
 
