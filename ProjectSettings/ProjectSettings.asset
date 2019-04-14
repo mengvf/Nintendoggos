@@ -262,11 +262,15 @@ PlayerSettings:
   m_BuildTargetPlatformIcons: []
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
+<<<<<<< HEAD
+  m_BuildTargetVRSettings: []
+=======
   m_BuildTargetVRSettings:
   - m_BuildTarget: Android
     m_Enabled: 1
     m_Devices:
     - cardboard
+>>>>>>> 234e9bdaa13247b754e1085c7bc7445ceb9095cc
   m_BuildTargetEnableVuforiaSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
