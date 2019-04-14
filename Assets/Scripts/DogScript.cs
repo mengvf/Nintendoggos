@@ -22,7 +22,6 @@ public class DogScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AndroidJavaClass speech = ;
         dogAnim = this.GetComponent<Animator>();
         rb = this.GetComponent<Rigidbody>();
 
