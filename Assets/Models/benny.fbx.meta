@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: d71a488021e25c247b832f8b3741e6d8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arm2_L
+    100002: arm2_R
+    100004: arm3_L
+    100006: arm3_R
+    100008: arm_L
+    100010: arm_L.001
+    100012: arm_R
+    100014: arm_R.001
+    100016: //RootNode
+    100018: body
+    100020: bodyBehind
+    100022: bodyFront
+    100024: Cube
+    100026: dogArmature
+    100028: fuss2_L
+    100030: fuss2_L.001
+    100032: fuss2_R
+    100034: fuss2_R.001
+    100036: fuss3_L
+    100038: fuss3_R
+    100040: fuss4_L
+    100042: fuss4_L_end
+    100044: fuss4_R
+    100046: fuss4_R_end
+    100048: fuss_L
+    100050: fuss_R
+    100052: hals
+    100054: hand_L
+    100056: hand_L_end
+    100058: hand_R
+    100060: hand_R_end
+    100062: head
+    100064: head_end
+    100066: kiefer
+    100068: mouth
+    100070: mouth_end
+    100072: root
+    100074: spine
+    100076: spine2
+    100078: spine3
+    100080: spine4
+    100082: tail1
+    100084: tail2
+    100086: tail2_end
+    400000: arm2_L
+    400002: arm2_R
+    400004: arm3_L
+    400006: arm3_R
+    400008: arm_L
+    400010: arm_L.001
+    400012: arm_R
+    400014: arm_R.001
+    400016: //RootNode
+    400018: body
+    400020: bodyBehind
+    400022: bodyFront
+    400024: Cube
+    400026: dogArmature
+    400028: fuss2_L
+    400030: fuss2_L.001
+    400032: fuss2_R
+    400034: fuss2_R.001
+    400036: fuss3_L
+    400038: fuss3_R
+    400040: fuss4_L
+    400042: fuss4_L_end
+    400044: fuss4_R
+    400046: fuss4_R_end
+    400048: fuss_L
+    400050: fuss_R
+    400052: hals
+    400054: hand_L
+    400056: hand_L_end
+    400058: hand_R
+    400060: hand_R_end
+    400062: head
+    400064: head_end
+    400066: kiefer
+    400068: mouth
+    400070: mouth_end
+    400072: root
+    400074: spine
+    400076: spine2
+    400078: spine3
+    400080: spine4
+    400082: tail1
+    400084: tail2
+    400086: tail2_end
+    2100000: fell
+    2100002: schnauze
+    2100004: hair2
+    2100006: ear
+    2300000: Cube
+    3300000: Cube
+    4300000: Cube
+    7400000: dogArmature|attack
+    7400002: dogArmature|attack2
+    7400004: dogArmature|die
+    7400006: dogArmature|flinch
+    7400008: dogArmature|idle
+    7400010: dogArmature|run
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cube
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: dogArmature|attack
+      takeName: dogArmature|attack
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dogArmature|attack2
+      takeName: dogArmature|attack2
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dogArmature|die
+      takeName: dogArmature|die
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dogArmature|flinch
+      takeName: dogArmature|flinch
+      firstFrame: 0
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dogArmature|idle
+      takeName: dogArmature|idle
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dogArmature|run
+      takeName: dogArmature|run
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton:
+    - name: benny(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: dogArmature
+      parentName: benny(Clone)
+      position: {x: -0, y: 0.004105333, z: 0}
+      rotation: {x: 0.50000006, y: 0.49999994, z: 0.5, w: -0.5}
+      scale: {x: 100, y: 100, z: 100}
+    - name: root
+      parentName: dogArmature
+      position: {x: 0.000009786696, y: 0.00004612073, z: -0.00048265286}
+      rotation: {x: -0.72052467, y: 0.000000029802322, z: 0.000000029802322, w: -0.69342935}
+      scale: {x: 1.0000005, y: 0.9999999, z: 0.99999994}
+    - name: body
+      parentName: root
+      position: {x: -0.00000375436, y: 0.0041381894, z: -0.000112202484}
+      rotation: {x: -0.009809644, y: 0.00000012642325, z: -0.0000000020091024, w: 0.9999519}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000002}
+    - name: spine3
+      parentName: body
+      position: {x: -2.1100276e-12, y: 0.008363828, z: -5.6445515e-11}
+      rotation: {x: 0.72927123, y: 0.000000079320635, z: 0.000000060733946, w: -0.6842248}
+      scale: {x: 1.0101928, y: 1.0001429, z: 1.000056}
+    - name: spine4
+      parentName: spine3
+      position: {x: 5.820766e-13, y: 0.004088786, z: -1.6300873e-10}
+      rotation: {x: -0.0019838212, y: 0.000000014531784, z: 0.00000001526161, w: 0.99999803}
+      scale: {x: 0.9899107, y: 0.9998583, z: 0.99994534}
+    - name: tail1
+      parentName: spine4
+      position: {x: -2.9103829e-12, y: 0.0018787907, z: -4.3091403e-10}
+      rotation: {x: -0.19943553, y: 0.00000001599143, z: -0.000000044325176, w: 0.979911}
+      scale: {x: 1.0000007, y: 1.0000014, z: 1.0000004}
+    - name: tail2
+      parentName: tail1
+      position: {x: -2.910383e-13, y: 0.002514003, z: 7.727476e-10}
+      rotation: {x: -0.32949737, y: -6.958833e-10, z: 0.000000007529674, w: 0.9441565}
+      scale: {x: 0.99999994, y: 1.0000005, z: 0.99999964}
+    - name: tail2_end
+      parentName: tail2
+      position: {x: -0, y: 0.0027568163, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bodyBehind
+      parentName: spine3
+      position: {x: 5.820766e-13, y: 0.004088786, z: -1.6300873e-10}
+      rotation: {x: -0.58807236, y: 0.012035246, z: 0.013247406, w: 0.8086103}
+      scale: {x: 0.98991185, y: 0.9999318, z: 0.999872}
+    - name: fuss_L
+      parentName: bodyBehind
+      position: {x: -0.0003459461, y: 0.0034496943, z: 0.00005798683}
+      rotation: {x: -0.37655088, y: 0.4446711, z: 0.4676544, w: 0.66466266}
+      scale: {x: 1.0000105, y: 0.9999755, z: 1.0000141}
+    - name: fuss2_L
+      parentName: fuss_L
+      position: {x: -0.0000000014342367, y: 0.0015067525, z: -3.352761e-10}
+      rotation: {x: 0.2940534, y: -0.39803576, z: -0.51715046, w: 0.69832337}
+      scale: {x: 1.0000232, y: 1.0000038, z: 0.9999729}
+    - name: fuss2_L.001
+      parentName: fuss2_L
+      position: {x: 6.984919e-11, y: 0.0020466973, z: 1.3969838e-10}
+      rotation: {x: 0.40891096, y: 0.0009359268, z: -0.010443938, w: 0.91251403}
+      scale: {x: 0.9999983, y: 0.9999723, z: 1.0000325}
+    - name: fuss3_L
+      parentName: fuss2_L.001
+      position: {x: 1.4901161e-10, y: 0.0023790582, z: 5.47152e-10}
+      rotation: {x: -0.3098012, y: -0.005847001, z: 0.0022102953, w: 0.95078087}
+      scale: {x: 1.0000013, y: 0.9999971, z: 1.000002}
+    - name: fuss4_L
+      parentName: fuss3_L
+      position: {x: -1.8626451e-11, y: 0.0043257545, z: -6.1001626e-10}
+      rotation: {x: -0.8270427, y: -0.01638003, z: 0.0024440086, w: 0.5618952}
+      scale: {x: 1.0000049, y: 0.9999981, z: 0.9999993}
+    - name: fuss4_L_end
+      parentName: fuss4_L
+      position: {x: -0, y: 0.001272982, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fuss_R
+      parentName: bodyBehind
+      position: {x: 0.00037380494, y: 0.0034453128, z: 0.000054973178}
+      rotation: {x: -0.31819898, y: -0.46823665, z: -0.34499148, w: 0.74865526}
+      scale: {x: 1.0000249, y: 1.0000255, z: 0.9999495}
+    - name: fuss2_R
+      parentName: fuss_R
+      position: {x: 7.4505804e-11, y: 0.001506752, z: 1.4901161e-10}
+      rotation: {x: 0.29405254, y: 0.3980348, z: 0.51715094, w: 0.69832397}
+      scale: {x: 0.99997425, y: 1.0000412, z: 0.99998534}
+    - name: fuss2_R.001
+      parentName: fuss2_R
+      position: {x: -1.4901161e-10, y: 0.0020466982, z: 2.188608e-10}
+      rotation: {x: 0.4580231, y: 0.42949072, z: -0.40376875, w: 0.6653746}
+      scale: {x: 1.000002, y: 1.0000026, z: 0.99999464}
+    - name: fuss3_R
+      parentName: fuss2_R.001
+      position: {x: 1.8626451e-11, y: 0.0023790603, z: -7.1013345e-10}
+      rotation: {x: -0.30980185, y: 0.0058470177, z: -0.0022104452, w: 0.95078063}
+      scale: {x: 0.99999976, y: 1.0000012, z: 1.0000012}
+    - name: fuss4_R
+      parentName: fuss3_R
+      position: {x: -3.329478e-10, y: 0.004325756, z: -4.656613e-10}
+      rotation: {x: 0.82704335, y: -0.016380005, z: 0.0024440584, w: -0.5618943}
+      scale: {x: 0.9999966, y: 1.000003, z: 1.0000017}
+    - name: fuss4_R_end
+      parentName: fuss4_R
+      position: {x: -0, y: 0.001272982, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine2
+      parentName: body
+      position: {x: -2.1100276e-12, y: 0.008363828, z: -5.6445515e-11}
+      rotation: {x: 0.2151227, y: -0.000000082147, z: 0.000000018902435, w: 0.97658706}
+      scale: {x: 1.0254257, y: 1.0001363, z: 1.0001005}
+    - name: spine
+      parentName: spine2
+      position: {x: -2.073648e-12, y: 0.0035519036, z: -2.939862e-10}
+      rotation: {x: -0.15838678, y: -0.000000024671252, z: -0.00000006629423, w: 0.98737717}
+      scale: {x: 1.0027, y: 1.000012, z: 1.0000042}
+    - name: hals
+      parentName: spine
+      position: {x: 1.0186341e-12, y: 0.0034148537, z: 0.0000000012179471}
+      rotation: {x: -0.16712485, y: -0.000000009502326, z: -0.0000000031046012, w: 0.98593575}
+      scale: {x: 0.9725792, y: 0.9998666, z: 0.99988186}
+    - name: head
+      parentName: hals
+      position: {x: -5.820766e-13, y: 0.0046189968, z: 0.0000000022683024}
+      rotation: {x: 0.5894206, y: 0.000000013623277, z: 0.000000058026902, w: 0.8078264}
+      scale: {x: 1.0000008, y: 0.9999897, z: 1.000012}
+    - name: head_end
+      parentName: head
+      position: {x: -0, y: 0.0042032753, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: kiefer
+      parentName: hals
+      position: {x: -5.820766e-13, y: 0.0046189968, z: 0.0000000022683024}
+      rotation: {x: 0.8568498, y: 0.000000024113339, z: 0.000000007150737, w: 0.5155662}
+      scale: {x: 0.99999994, y: 1.0000168, z: 0.99998385}
+    - name: mouth
+      parentName: kiefer
+      position: {x: 1.7462298e-12, y: 0.0024971582, z: 2.4294422e-10}
+      rotation: {x: -0.4637313, y: 0.000000027437613, z: 0.000000050158324, w: 0.88597584}
+      scale: {x: 1.0000002, y: 0.99998987, z: 1.0000101}
+    - name: mouth_end
+      parentName: mouth
+      position: {x: -0, y: 0.0022766863, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bodyFront
+      parentName: spine
+      position: {x: 1.0186341e-12, y: 0.0034148537, z: 0.0000000012179471}
+      rotation: {x: 0.85914236, y: -0.00000007131882, z: -0.00000013573309, w: 0.5117367}
+      scale: {x: 0.97257924, y: 0.9998927, z: 0.99985534}
+    - name: arm_L
+      parentName: bodyFront
+      position: {x: 4.7293723e-12, y: 0.0048884014, z: 0.000033352273}
+      rotation: {x: 0.027213836, y: -0.0059537455, z: 0.11750633, w: 0.9926813}
+      scale: {x: 1.0000069, y: 1.0000001, z: 0.9999921}
+    - name: arm_L.001
+      parentName: arm_L
+      position: {x: -0.00018510371, y: 0.0014053227, z: -0.001407053}
+      rotation: {x: -0.22393423, y: -0.1789858, z: -0.038842518, w: 0.9572402}
+      scale: {x: 0.9999992, y: 0.9999972, z: 1.0000048}
+    - name: arm2_L
+      parentName: arm_L.001
+      position: {x: 2.2351741e-10, y: 0.0025505875, z: 2.840534e-10}
+      rotation: {x: -0.20665596, y: 0.02285233, z: 0.03410661, w: 0.977552}
+      scale: {x: 1.0000002, y: 1.0000027, z: 0.9999995}
+    - name: arm3_L
+      parentName: arm2_L
+      position: {x: 3.7252902e-11, y: 0.0036958982, z: 5.0291415e-10}
+      rotation: {x: 0.040219087, y: 0.007486237, z: -0.0098249195, w: 0.99911463}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000002}
+    - name: hand_L
+      parentName: arm3_L
+      position: {x: 6.228219e-11, y: 0.0023673312, z: -6.277696e-10}
+      rotation: {x: 0.08810344, y: -0.17644817, z: 0.20960955, w: -0.95768875}
+      scale: {x: 1.0000005, y: 0.9999997, z: 0.9999999}
+    - name: hand_L_end
+      parentName: hand_L
+      position: {x: -0, y: 0.0015939749, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: arm_R
+      parentName: bodyFront
+      position: {x: -0.000013207789, y: 0.004888402, z: 0.000033352004}
+      rotation: {x: -0.15960263, y: -0.28136942, z: -0.44208202, w: 0.8366133}
+      scale: {x: 1.0000074, y: 1.000001, z: 0.99999285}
+    - name: arm_R.001
+      parentName: arm_R
+      position: {x: 0.00018510308, y: 0.0014053229, z: -0.001407053}
+      rotation: {x: 0.8266072, y: 0.51893264, z: -0.065348074, w: 0.20774749}
+      scale: {x: 0.99999875, y: 0.99999726, z: 1.0000048}
+    - name: arm2_R
+      parentName: arm_R.001
+      position: {x: 3.7252902e-11, y: 0.0025505882, z: 3.7252902e-11}
+      rotation: {x: 0.09411131, y: -0.027975641, z: -0.0067513273, w: 0.9951456}
+      scale: {x: 0.99999994, y: 1.0000014, z: 0.9999985}
+    - name: arm3_R
+      parentName: arm2_R
+      position: {x: 3.7252902e-11, y: 0.0036958978, z: 7.4505804e-11}
+      rotation: {x: -0.00466524, y: -0.008422137, z: 0.015001344, w: 0.99984115}
+      scale: {x: 1.0000001, y: 1.0000013, z: 1.0000007}
+    - name: hand_R
+      parentName: arm3_R
+      position: {x: 1.05137586e-10, y: 0.0023672725, z: -1.1568772e-10}
+      rotation: {x: -0.048045803, y: 0.03138442, z: 0.0014137299, w: 0.9983509}
+      scale: {x: 1.000001, y: 1.0000001, z: 1.0000007}
+    - name: hand_R_end
+      parentName: hand_R
+      position: {x: -0, y: 0.0015939749, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube
+      parentName: benny(Clone)
+      position: {x: -0, y: 0.017911572, z: 0}
+      rotation: {x: -0.5, y: -0.5, z: -0.49999997, w: 0.50000006}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
