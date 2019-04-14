@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class eating : MonoBehaviour
 {
-	 Animator dogAnim;
      void OnCollisionEnter (Collision col)
     {
-        if(col.gameObject.name == "Steak_Uncooked")
+		Debug.Log(col.collider.name);
+        if(col.gameObject.tag == "collision")
         {
+			Debug.Log("We hit something");
             Destroy(col.gameObject);
         }
     }
