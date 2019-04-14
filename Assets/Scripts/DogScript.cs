@@ -9,6 +9,7 @@ public class DogScript : MonoBehaviour
     Animator dogAnim;
     Rigidbody rb;
     bool running = false;
+    bool sitting = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,23 +34,32 @@ public class DogScript : MonoBehaviour
             this.transform.LookAt(new Vector3(main_camera.transform.position.x, this.transform.position.y, main_camera.transform.position.z), new Vector3(0, 1, 0));
             this.transform.Rotate(0, 90, 0);
             running = true;
-            rb.velocity = -this.transform.right * 10;
+            rb.AddForce((new Vector3(main_camera.transform.position.x, this.transform.position.y, main_camera.transform.position.z) - this.transform.position).normalized * 100);
         }
         if (running)
         {
             dogAnim.Play(Animator.StringToHash("Base Layer.run"), 0);
         }
+        if (sitting)
+        {
+            dogAnim.Play(Animator.StringToHash("Base Layer.idle"), 0);
+        }
         if (Input.GetKeyDown("s"))
         {
             StopDog();
-            rb.velocity = this.transform.right * 10;
+        }
+        //Stop dog when it's close to the camera
+        if (Vector3.Distance(this.transform.position, main_camera.transform.position) < 5 && running)
+        {
+            StopDog();
         }
     }
 
     void StopDog()
     {
         running = false;
-        this.transform.LookAt(new Vector3(main_camera.transform.position.x, this.transform.position.y, main_camera.transform.position.z), new Vector3(0, 1, 0));
-        dogAnim.Play(Animator.StringToHash("Base Layer.Empty"));
+        rb.velocity = new Vector3(0, 0, 0);
+        //this.transform.LookAt(new Vector3(main_camera.transform.position.x, this.transform.position.y, main_camera.transform.position.z), new Vector3(0, 1, 0));
+        sitting = true;
     }
 }
